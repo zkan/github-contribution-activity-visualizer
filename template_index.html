@@ -5,6 +5,17 @@
 </head>
 <body>
   <h1>{{ title }}</h1>
+    <div>
+      Less
+      <ul class="legend">
+        <li style="background-color: #ebedf0"></li>
+        <li style="background-color: #c6e48b"></li>
+        <li style="background-color: #7bc96f"></li>
+        <li style="background-color: #239a3b"></li>
+        <li style="background-color: #196127"></li>
+      </ul>
+      More
+    </div>
   {% for each in user_activities %}
     <h2><a href="{{ each.url }}" target="_blank">{{ each.username }}</a></h2>
     <div>
