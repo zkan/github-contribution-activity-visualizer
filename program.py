@@ -8,6 +8,8 @@ from requests_html import HTMLSession
 GITHUB_USERNAMES = [
     'zkan',
     'mesodiar',
+    'Thoritie',
+    'sandysaille',
     'yothinix',
     'gatukgl',
     'WiNloSt',
