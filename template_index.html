@@ -1,0 +1,14 @@
+<html>
+<head>
+  <title>{{ title }}</title>
+</head>
+<body>
+  <h1>{{ title }}</h1>
+  {% for each in user_activities %}
+    <h2><a href="{{ each.url }}" target="_blank">{{ each.username }}</a></h2>
+    <div>
+      {{ each.graph|safe }}
+    </div>
+  {% endfor %}
+</body>
+</html>
