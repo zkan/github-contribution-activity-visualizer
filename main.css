@@ -1,0 +1,13 @@
+body {
+  font-size: 14px;
+}
+
+.wday {
+  fill: #767676;
+  font-size: 9px;
+}
+
+.month {
+  fill: #767676;
+  font-size: 10px;
+}
