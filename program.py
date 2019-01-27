@@ -11,6 +11,9 @@ GITHUB_USERNAMES = [
     'Thoritie',
     'sandysaille',
     'yothinix',
+    'parnpresso',
+    'DaisukiDaYo',
+    'saowaluck',
     'gatukgl',
     'WiNloSt',
 ]
