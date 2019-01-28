@@ -9,7 +9,7 @@ from github import GITHUB_USERNAMES
 def get_contribution_activities():
     session = HTMLSession()
     context = {
-        'title': 'GitHub Contribution Acvitiy Visualizer',
+        'title': 'GitHub Contribution Activity Visualizer',
         'user_activities': [],
     }
     for username in GITHUB_USERNAMES:
